@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #191818;
+    padding: 0;
+    margin: 0;
+}
+
+#title {
+    background-image: url('/Images/Bg.jpg');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#title p {
+    font-size: 2rem;
+    padding-left: 10px;
+    padding-top: 35px;
+    text-align: left;
+    position: absolute;
+    color: white;
+}
+
+#title span {
+    font-family: 'Smythe', cursive;
+    font-size: 7rem;
+}
+
+#info {
+    text-align: justify;
+    padding: 10px 50px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.flash {
+    font-size: 1.5rem;
+}
+
+.detail {
+    font-size: 1.2rem;
+}
+
+.myImg {
+    padding: 15px;
+    width: 45%;
+    height: auto;
+    float: right;
+}
+
+.img1 {
+    padding: 15px;
+    width: 45%;
+    height: auto;
+    float: left;
+}
+footer{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
